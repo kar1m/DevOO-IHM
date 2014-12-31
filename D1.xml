@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<main_Window id_Window = "11C" state_window = "1" width="200" height="200" x="0" y="200">
+
+<header>
+     <title> Optimod_lyon </title>
+	 <user_type>Superviseur </user_type>
+</header>
+
+
+<map xmlns:xlink="http://www.w3.org/1999/xlink">
+
+     <image id="map_lyon_2014" xlink:href="data/image/mapl_lyon_2014.png" xlink:show="replace">
+ 
+         <property name="visible">True</property>
+         <property name="width">250</property>
+         <property name="height">150</property>
+         <property name="resizable">True</property>
+		 
+	 </image> 
+</map>
+
+
+	 
+</navigation_Pane>
+	 <zone> 
+	 <Name> zone 1 </Name>
+     <logo image = "localisation_logo"/>
+	 <arrondissement> Arrondissement 1 </arondissement>
+	 <logo image = "camion_logo"/>
+	 <Livreur> Moreno </livreur> 
+	 </Zone>
+	 
+	 <zone> 
+	 <Name> zone 2 </Name>
+     <logo image = "localisation_logo"/>
+	 <arrondissement> Arrondissement 2 </arondissement>
+	 <logo image = "camion_logo"/>
+	 <Livreur> El Rhazi </livreur> 
+	 </Zone>
+	 
+	 <zone> 
+	 <Name> zone 3 </Name>
+     <logo image = "localisation_logo"/>
+	 <arrondissement> Arrondissement 5 </arondissement>
+	 <logo image = "camion_logo"/>
+	 <Livreur> Benhmida </livreur> 
+	 </Zone>
+	 
+</navigation_Pane>
+
+
+
+ 
+
+
+</main_Window>
